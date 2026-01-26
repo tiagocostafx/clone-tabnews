@@ -19,6 +19,8 @@ async function waitForAllSerices() {
   }
 }
 
-export default {
+const orchestrator = {
   waitForAllSerices,
 };
+
+export default orchestrator;
